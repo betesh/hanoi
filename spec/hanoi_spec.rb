@@ -20,3 +20,9 @@ describe "invalid inputs" do
   end
 end
 
+describe "playing the game" do
+  it "should play and win" do
+    Hanoi.new(4).play!
+  end
+end
+
